@@ -12,6 +12,12 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
+## Run as web app with Chromium
+
+```bash
+export CHROME_EXECUTABLE=/usr/bin/chromium
+```
+
 ## Assets
 
 The `assets` directory houses images, fonts, and any other files you want to
