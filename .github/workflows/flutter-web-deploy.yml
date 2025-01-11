@@ -2,6 +2,7 @@ name: Build and Deploy Flutter Web App
 
 permissions:
     actions: write
+    pages: write
 
 on:
   push:
