@@ -33,7 +33,7 @@ jobs:
 
       - name: Build Flutter Web
         working-directory: flutter_skeleton
-        run: flutter build web --release
+        run: flutter build web --release --base-href "${{ env.FLUTTER_BASE_HREF }}"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
