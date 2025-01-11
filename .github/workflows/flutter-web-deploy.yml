@@ -1,5 +1,8 @@
 name: Build and Deploy Flutter Web App
 
+permissions:
+    actions: write
+
 on:
   push:
     branches:
