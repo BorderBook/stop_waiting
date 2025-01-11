@@ -16,6 +16,7 @@ samples, guidance on mobile development, and a full API reference.
 
 ```bash
 export CHROME_EXECUTABLE=/usr/bin/chromium
+flutter run -d chrome
 ```
 
 ## Assets
